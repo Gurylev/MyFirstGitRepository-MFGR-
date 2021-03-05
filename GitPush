@@ -4,4 +4,4 @@
 printf "Commit msg: "
 read msg
 git commit -am "$msg"
-git push origin master
+git push https://github.com/Gurylev/MyFirstGitRepository-MFGR-.git master
