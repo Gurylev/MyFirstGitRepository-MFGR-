@@ -1,5 +1,7 @@
 #!/bin/bash
 #GitPush command
-git add .
-git commit -m "Smthg push message"
-git push https://github.com/Gurylev/MyFirstGitRepository-MFGR-.git master
+
+printf "Commit msg: "
+read msg
+git commit -am "$msg"
+git push origin master

@@ -1,5 +1,4 @@
 #!/bin/bash
-#GitPush command
-git add .
-git commit -m "Smthg push message"
-git push https://github.com/Gurylev/MyFirstGitRepository-MFGR-.git master
+#GitPull command
+
+git pull https://github.com/Gurylev/MyFirstGitRepository-MFGR-.git master
