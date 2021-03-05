@@ -1,0 +1,5 @@
+#!/bin/bash
+#GitPull command
+git add .
+git commit -m "Smthg pull message"
+git pull https://github.com/Gurylev/MyFirstGitRepository-MFGR-.git master
